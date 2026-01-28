@@ -1,0 +1,176 @@
+/* Google Font (Optional) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Body Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f4f9ff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Main Headings */
+h1 {
+  text-align: center;
+  color: #0a4d8c;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+}
+
+h2 {
+  color: #0a4d8c;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+img {
+  width: 600px;       /* change size here */
+  height: auto;       /* keeps image ratio correct */
+  display: block;
+  margin: 15px auto;
+  border-radius: 12px;
+  border: 3px solid #0a4d8c;
+  padding: 5px;
+}
+
+/* Navigation Bar */
+nav {
+  background: #0a4d8c;
+  text-align: center;
+  padding: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  padding: 8px 15px;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background: white;
+  color: #0a4d8c;
+}
+
+/* Main Content */
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Section Box Styling */
+section {
+  background: white;
+  padding: 20px;
+  border: 2px solid #d6eaff;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Paragraph Styling */
+p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Ordered & Unordered Lists */
+ol, ul {
+  padding-left: 30px;
+}
+
+li {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+/* Benefits Section Special Border */
+#benefits {
+  border-left: 8px solid #2ecc71;
+}
+
+/* Methods Section Special Border */
+#Methods {
+  border-left: 8px solid #3498db;
+}
+
+/* Challenges Section Special Border */
+#challenges {
+  border-left: 8px solid #e74c3c;
+}
+
+/* Set-up Section */
+#Set-up h1 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+/* Image Styling */
+img {
+  width: 100%;
+  max-width: 750px;
+  display: block;
+  margin: 15px auto;
+  border-radius: 12px;
+  border: 3px solid #0a4d8c;
+  padding: 5px;
+}
+
+/* Setup UL Style */
+#Set-up ul {
+  list-style-type: square;
+  margin-top: 15px;
+  background: #f0f8ff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px dashed #0a4d8c;
+}
+
+/* Links inside methods */
+#Methods a {
+  color: #0a4d8c;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#Methods a:hover {
+  color: #ff6600;
+}
+
+/* Conclusion Highlight */
+#Conclusion {
+  background: #eaf6ff;
+  border: 2px solid #0a4d8c;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px;
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  p, li {
+    font-size: 14px;
+  }
+}
